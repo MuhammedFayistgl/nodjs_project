@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="container  " style="align-items:center;">
+
+                <table class="apl_product_table ">
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product ID</th>
+                            <th>Product Price</th>
+                            <th>Product image</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <form method="POST" action="submit" enctype="multipart/form-data">
+                                <td><input type="text" name="product_Name" placeholder="Shortcode ID" required></td>
+                                <td><input type="text" name="product_id" placeholder="Link Display Text" required></td>
+                                <td><input type="number" name="product_price" placeholder="Amazon Product ID" required>
+                                </td>
+                                <td><input type="file" name="product_image" placeholder="Default Product Price"
+                                        required></td> <br>
+                                <td><input class=" btn btn-success" type="submit" value="submit"></td>
+                            </form>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div class="col-md-4">
+            <table class="table table-md  pr-5">
+                <thead>
+                    <tr class="table-primary">
+                        <th  scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="table-primary" scope="row">1</th>
+                        <td class="table-danger" >Mark</td>
+                        <td class="table-danger">Otto</td>
+                        <td class="table-danger">@mdo</td>
+                    </tr>
+                    <tr>
+                        <th class="table-primary" scope="row">2</th>
+                        <td class="table-danger">Jacob</td>
+                        <td class="table-danger">Thornton</td>
+                        <td class="table-danger">@fat</td>
+                    </tr>
+                    <tr>
+                        <th class="table-primary" scope="row">3</th>
+                        <td class="table-danger" colspan="2">Larry the Bird</td>
+                        <td class="table-danger">@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
